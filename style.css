@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 15%;
+ }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+   padding: 10px 0;
+    
+}
+.header .logo{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EE4266;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border-left: 2px solid #EE4266;
+    border-right: 2px solid #EE4266;
+   
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.header .navbar a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    transition: .4s ease-in-out;
+    border-left: 2px solid #EE4266;
+    border-right: 2px solid #EE4266;
+}
+.header .navbar a:hover{
+    color: #EE4266;
+    margin-left: -20px;
+    /* transform:rotate(360deg) scale(1.2); */
+}
+ .header .login_area a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    border-left: 2px solid #EE4266;
+    border-right: 2px solid #EE4266;
+ }
+
+ /* <====================================Banner Part Start======================================> */
+ .banner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .banner_left{
+    width: 40%;
+ } 
+ .banner_left .banner_photo{
+    width: 330px;
+    height: 330px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: .5s ease-in-out;
+    border-right: 2px solid #EE4266;
+    border-left: 2px solid #EE4266;
+ }
+ .banner_left .banner_photo:hover{
+    transform: scale(1.1);
+ }
+ .banner_left .banner_photo img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 3px dashed #EE4266;
+ }
+ .banner_right{
+    width: 60%;
+ }
+ .banner_right ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    transition: .4s ease-in-out;
+    border-left: 2px solid #EE4266;
+    border-right: 2px solid #EE4266;
+ }
+ .banner_right ul li:hover{
+    /* transform: scale(1.1); */
+    margin-left: 20px;
+    border: 1px solid #EE4266;
+ }
+ .banner_right ul li h2{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-transform: uppercase;
+ }
+ .banner_right ul li h2 span{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #EE4266;
+    text-transform: uppercase;
+ }
+
+ /* <====================================Banner Part End======================================> */
+
+ /* <====================================Footer Part Start======================================> */
+ .footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_left a{
+    font-size: 20px;
+    color: #EE4266;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 100%;
+    transition: .5s ease-in-out;
+    border-left: 2px solid #EE4266;
+ }
+ .footer_left a:hover{
+    margin-left: 20px;
+    color: rgb(32, 31, 31);
+ }
+ .footer_right p{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+
+ }
+ .footer_right span{
+    color: #EE4266;
+ }
+ /* <====================================Footer Part End======================================> */
+
+ /* <====================================Banner Part Start======================================> */
+ /* <====================================Banner Part End======================================> */
+
+ /* <====================================Banner Part Start======================================> */
+ /* <====================================Banner Part End======================================> */
